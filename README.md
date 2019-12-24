@@ -5,7 +5,11 @@
 brew install gauge
 
 cd ${repository_root}
-gauge init js_puppeteer
-
+npm install
 ```
 
+## Usage
+
+```
+gauge run specs/
+```

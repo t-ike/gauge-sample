@@ -20,7 +20,7 @@ step("googleを開く", async function () {
 });
 
 step("検索する", async function () {
-  await page.type("input[title=\"検索\"]", "abc", {delay: 100000000});
+  await page.type("input[title=\"検索\"]", "abc", {delay: 1000});
   await page.screenshot({path: 'screenShotPage.png'});
   await page.click('input[name="btnK"]')
 });
